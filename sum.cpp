@@ -1,6 +1,8 @@
 #include <cstdio>
 
 int main(void) {
-	printf("5 + 3 = %d\n", 5 + 3);
+	int a, b;
+	scanf("%d%d", &a, &b);
+	printf("%d\n", a + b);
 	return 0;
 }
